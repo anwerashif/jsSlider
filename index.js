@@ -22,3 +22,12 @@ function prev() {
     slider.src = sliderImgs[count];
   }
 }
+
+var fName = prompt("Enter Your First Name: ")
+var lName = prompt("Enter Your Last Name: ")
+var fullName = fName + " " + lName;
+console.log(fullName);
+console.log(fullName.length);
+var mName = fullName.toUpperCase();
+console.log(mName);
+console.log(mName.charAt(1));
